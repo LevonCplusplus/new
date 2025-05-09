@@ -23,7 +23,7 @@ inline std::string RoletoString(const Role& role){            //Converts role to
         return  "Senior";
     }
 }
-inline std::string StatustoString(Status & status){              //Converts status to a string for display.
+inline std::string StatustoString(const Status & status){              //Converts status to a string for display.
     if(status == Status::Inactive)
     {
        return  "Inactive";
