@@ -5,7 +5,7 @@ EmployeeManager::EmployeeManager(EmployeeManager&& other) noexcept
        m_femployees = std::move(other.m_femployees);
        m_pemployees = std::move(other.m_pemployees);
    }
-   EmployeeManager& EmployeeManager:: operator=(const EmployeeManager&& other)noexcept
+   EmployeeManager& EmployeeManager:: operator=(EmployeeManager&& other)noexcept
    {
       if(this == &other)
       {
