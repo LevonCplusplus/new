@@ -1,5 +1,5 @@
 #include "employeemanagment.h"
-EmployeeManager::EmployeeManager(const EmployeeManager&& other) noexcept
+EmployeeManager::EmployeeManager(EmployeeManager&& other) noexcept
    {
        
        m_femployees = std::move(other.m_femployees);
