@@ -14,7 +14,7 @@ public:
    EmployeeManager (const EmployeeManager&) = delete;
    EmployeeManager& operator=(const EmployeeManager&) = delete;
    EmployeeManager(EmployeeManager&&)noexcept;
-   EmployeeManager& operator=(const EmployeeManager&&)noexcept;
+   EmployeeManager& operator=(EmployeeManager&&)noexcept;
   ~EmployeeManager();
    void CalculateSalary(Employee* );
    void AddEmployee(Employee*);
