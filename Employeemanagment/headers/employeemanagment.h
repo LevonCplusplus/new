@@ -13,7 +13,7 @@ public:
    EmployeeManager():m_femployees(0),m_pemployees(0){}
    EmployeeManager (const EmployeeManager&) = delete;
    EmployeeManager& operator=(const EmployeeManager&) = delete;
-   EmployeeManager(const EmployeeManager&&)noexcept;
+   EmployeeManager(EmployeeManager&&)noexcept;
    EmployeeManager& operator=(const EmployeeManager&&)noexcept;
   ~EmployeeManager();
    void CalculateSalary(Employee* );
