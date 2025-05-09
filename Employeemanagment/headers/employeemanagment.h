@@ -25,7 +25,7 @@ public:
    void EmployementTypeDisplay(Employee* emp);
    void RemoveEmployee(Employee * emp);
    Employee* SearchEmployees(const int)const;
-   void UpdateEmployeeRole();
+   
 };
 
 #endif
